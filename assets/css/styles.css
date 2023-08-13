@@ -36,3 +36,10 @@ header .nav-bar li a {
     font-weight: 700;
     font-size: 18px;
 }
+
+#band, #news, #music, #events, #about, #media {
+    position: relative;
+    min-height: 100vh;
+    padding: 120px 100px;
+    width: 100%;
+}
