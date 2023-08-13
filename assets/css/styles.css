@@ -7,6 +7,10 @@
     font-family: 'Poppins', sans-serif;
 }
 
+:root {
+   --branco: #fff;
+}
+
 header {
     position: absolute;
     top: 0;
@@ -15,6 +19,7 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
+    z-index: 1;
 }
 
 header .nav-bar {
@@ -35,6 +40,7 @@ header .nav-bar li a {
     text-transform: uppercase;
     font-weight: 700;
     font-size: 18px;
+    color: var(--branco);
 }
 
 #band, #news, #music, #events, #about, #media {
@@ -45,5 +51,9 @@ header .nav-bar li a {
 }
 
 #band {
+    position: relative;
     background: url(/assets/img/lp-meteora.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
