@@ -6,3 +6,31 @@
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
+
+header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header .nav-bar {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 100px;
+}
+
+header .nav-bar li {
+    list-style: none;
+}
+
+header .nav-bar li a {
+    text-decoration: none;
+    text-transform: uppercase;
+}
