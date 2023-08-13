@@ -39,11 +39,11 @@ header .nav-bar li a {
 
 #band, #news, #music, #events, #about, #media {
     position: relative;
-    min-height: 100vh;
+    min-height: 70vh;
     padding: 120px 100px;
     width: 100%;
 }
 
 #band {
-    
+    background: url(/assets/img/lp-meteora.jpg);
 }
