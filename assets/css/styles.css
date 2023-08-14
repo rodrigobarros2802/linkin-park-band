@@ -65,3 +65,13 @@ header .nav-bar li a {
     align-items: center;
     flex-direction: column;
 }
+
+#band .band-container img {
+    max-width: 500px;
+    filter: invert(1);
+    padding: 0 100px;
+    margin: 0;
+    position: absolute;
+    top: 50px;
+    
+}
