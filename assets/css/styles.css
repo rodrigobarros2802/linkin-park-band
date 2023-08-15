@@ -65,9 +65,14 @@ header .nav-bar li a {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    left: 40px;
 }
 
 #band .band-container img {
     max-width: 500px;
     filter: invert(1);
+}
+
+#band .band-container h3 {
+    
 }
