@@ -9,6 +9,7 @@
 
 :root {
    --branco: #fff;
+   --vermelho: #ba0a0e;
 }
 
 header {
@@ -74,5 +75,12 @@ header .nav-bar li a {
 }
 
 #band .band-container h3 {
-    
+    text-transform: uppercase;
+    color: var(--branco);
+    font-size: 1.5em;
+    font-weight: 800;
+}
+
+#band .band-container span {
+    color: var(--vermelho);
 }
