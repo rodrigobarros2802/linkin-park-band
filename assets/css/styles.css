@@ -10,6 +10,7 @@
 :root {
    --branco: #fff;
    --vermelho: #ba0a0e;
+   --preto: #000;
 }
 
 header {
@@ -48,8 +49,18 @@ header .nav-bar li a {
     position: relative;
     width: 30px;
     height: 70px;
-    background: #ba0a0e;
+    background: var(--vermelho);
     left: 140px;
+}
+
+.focus {
+    background: var(--preto);
+    padding: 0 20px;
+    border-radius: 20px;
+}
+
+.focus:hover {
+    background: var(--vermelho);
 }
 
 #band, #news, #music, #events, #about, #media {
