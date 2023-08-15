@@ -44,6 +44,14 @@ header .nav-bar li a {
     color: var(--branco);
 }
 
+.details {
+    position: relative;
+    width: 30px;
+    height: 70px;
+    background: #ba0a0e;
+    left: 140px;
+}
+
 #band, #news, #music, #events, #about, #media {
     position: relative;
     min-height: 70vh;
