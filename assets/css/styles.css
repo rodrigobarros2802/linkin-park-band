@@ -13,7 +13,7 @@
 }
 
 header {
-    position: fixed;
+    position: absolute;
     top: 0;
     left: 0;
     width: 100%;
@@ -21,7 +21,6 @@ header {
     justify-content: center;
     align-items: center;
     z-index: 1;
-    backdrop-filter: blur(20px);
 }
 
 header .nav-bar {
@@ -79,8 +78,20 @@ header .nav-bar li a {
     color: var(--branco);
     font-size: 1.5em;
     font-weight: 800;
+    margin: 10px 0;
 }
 
 #band .band-container span {
     color: var(--vermelho);
+}
+
+#band .band-container .btn {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: var(--branco);
+    font-family: 700;
+    font-size: 1.2em;
+    border: 2px solid var(--branco);
+    padding: 10px 30px;
+    border-radius: 40px;
 }
