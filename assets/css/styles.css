@@ -114,3 +114,10 @@ header .nav-bar li a {
     padding: 10px 30px;
     border-radius: 40px;
 }
+
+#news {
+    position: absolute;
+    background: var(--vermelho);
+    width: 70%;
+    right: 0;
+}
