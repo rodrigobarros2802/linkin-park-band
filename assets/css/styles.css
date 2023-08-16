@@ -118,6 +118,15 @@ header .nav-bar li a {
 #news {
     position: absolute;
     background: var(--vermelho);
-    width: 70%;
+    width: 100%;
     right: 0;
+}
+
+#news .news-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
