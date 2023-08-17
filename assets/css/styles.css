@@ -164,6 +164,13 @@ header .nav-bar li a {
     margin: 15px 0;
 }
 
+.news-content a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: var(--branco);
+    font-weight: 300;
+}
+
 
 
 
