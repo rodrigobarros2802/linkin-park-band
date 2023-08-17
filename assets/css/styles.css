@@ -108,7 +108,7 @@ header .nav-bar li a {
     text-decoration: none;
     text-transform: uppercase;
     color: var(--branco);
-    font-family: 900;
+    font-weight: 900;
     font-size: 1.2em;
     border: 2px solid var(--branco);
     padding: 10px 30px;
@@ -121,6 +121,7 @@ header .nav-bar li a {
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 100%;
 }
 
 #news .news-container {
@@ -128,8 +129,15 @@ header .nav-bar li a {
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 100%;
+    padding: 0 100px;
 }
 
+#news .news-container img {
+    position: absolute;
+    left: 0;
+    width: 517px;
+}
 
 
 
