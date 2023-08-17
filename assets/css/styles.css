@@ -115,16 +115,22 @@ header .nav-bar li a {
     border-radius: 40px;
 }
 
-#news {
+#news{
     position: relative;
-    background: var(--vermelho);
-    clip-path: polygon(35% 0, 100% 0, 100% 100%, 24% 100%);
-    z-index: -1;
+    background-color: var(--vermelho);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #news .news-container {
     position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
+
 
 
 
