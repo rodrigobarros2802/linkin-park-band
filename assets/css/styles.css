@@ -9,7 +9,7 @@
 
 :root {
    --branco: #fff;
-   --vermelho: #ba0a0e;
+   --vermelho: #de3132;
    --preto: #000;
 }
 
@@ -118,17 +118,12 @@ header .nav-bar li a {
 #news {
     position: relative;
     background: var(--vermelho);
-    width: 100%;
-    right: 0;
+    clip-path: polygon(35% 0, 100% 0, 100% 100%, 24% 100%);
+    z-index: -1;
 }
 
 #news .news-container {
     position: absolute;
-    top: 0;
-    left: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 
