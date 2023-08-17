@@ -165,10 +165,14 @@ header .nav-bar li a {
 }
 
 .news-content a {
+    position: relative;
     text-decoration: none;
     text-transform: uppercase;
     color: var(--branco);
     font-weight: 300;
+    padding: 5px 50px;
+    border: 1px solid var(--branco);
+    border-radius: 20px;
 }
 
 
