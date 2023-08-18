@@ -182,9 +182,10 @@ header .nav-bar li a {
 }
 
 #music {
-    background: url(/assets/img/lp-banda.png);
+    background: url(/assets/img/lp-banda2.png);
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
 }
 
 
