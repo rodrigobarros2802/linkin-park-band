@@ -181,6 +181,11 @@ header .nav-bar li a {
     border-radius: 20px;
 }
 
+#music {
+    background: url(/assets/img/lp-banda.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
 
 
