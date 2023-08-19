@@ -50,6 +50,11 @@ header .nav-bar li a:hover {
     color: var(--vermelho);
 }
 
+header .nav-bar li:nth-child(1) a:hover,
+header .nav-bar li:nth-child(6) a:hover {
+    color: var(--branco);
+}
+
 .details {
     position: relative;
     width: 30px;
