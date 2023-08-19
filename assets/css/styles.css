@@ -46,7 +46,9 @@ header .nav-bar li a {
     color: var(--branco);
 }
 
-
+header .nav-bar li a:hover {
+    color: var(--vermelho);
+}
 
 .details {
     position: relative;
