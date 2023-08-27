@@ -225,7 +225,7 @@ header .nav-bar li:nth-child(6) a:hover {
     font-weight: 700;
 }
 
-#news{
+#events{
     position: relative;
     background-color: var(--vermelho);
     display: flex;
