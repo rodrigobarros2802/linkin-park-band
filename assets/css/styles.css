@@ -221,7 +221,7 @@ header .nav-bar li:nth-child(6) a:hover {
 
 #music .music-content li {
     margin: 20px;
-    color: var(--branco);
+    color: var(--vermelho);
     font-weight: 700;
 }
 
