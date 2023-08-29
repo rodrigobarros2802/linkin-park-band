@@ -268,6 +268,9 @@ header .nav-bar li:nth-child(6) a:hover {
     font-weight: 800;
     font-size: 1.5em;
     text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .events-content .date-content p {
@@ -277,3 +280,6 @@ header .nav-bar li:nth-child(6) a:hover {
     font-size: 1.2em;
 }
 
+.events-content .date-content ion-icon {
+    opacity: 0.5;
+}
