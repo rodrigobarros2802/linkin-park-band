@@ -225,13 +225,23 @@ header .nav-bar li:nth-child(6) a:hover {
     font-weight: 700;
 }
 
-#events{
+#events {
     position: relative;
     background-color: var(--vermelho);
     display: flex;
     justify-content: center;
     align-items: center;
     width: 100%;
+}
+
+#events .events-content {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    left: 100px;
+    text-align: center;
 }
 
 
