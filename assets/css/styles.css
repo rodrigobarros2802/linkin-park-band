@@ -247,6 +247,12 @@ header .nav-bar li:nth-child(6) a:hover {
 #events .events-content h2 {
     color: var(--branco);
     text-transform: uppercase;
+    font-weight: 900;
+    font-size: 2em;
+}
+
+.events-content .date-content {
+    margin: 10px;
 }
 
 
