@@ -270,3 +270,10 @@ header .nav-bar li:nth-child(6) a:hover {
     text-transform: uppercase;
 }
 
+.events-content .date-content p {
+    color: var(--branco);
+    text-transform: uppercase;
+    font-weight: 300;
+    font-size: 1.2em;
+}
+
