@@ -255,4 +255,8 @@ header .nav-bar li:nth-child(6) a:hover {
     margin: 10px;
 }
 
+.events-content .date-content p {
+    color: var(--branco);
+    text-transform: uppercase;
+}
 
