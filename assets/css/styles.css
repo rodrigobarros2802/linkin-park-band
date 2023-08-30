@@ -283,3 +283,17 @@ header .nav-bar li:nth-child(6) a:hover {
 .events-content .date-content ion-icon {
     opacity: 0.5;
 }
+
+#events .events-img {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    right: 100px;
+    bottom: 0;
+}
+
+.events-img img {
+    width: 800px;
+    height: 600px;
+}
