@@ -73,7 +73,7 @@ header .nav-bar li:nth-child(6) a:hover {
     background: var(--vermelho);
 }
 
-#band, #news, #music, #events, #about, #media {
+#band, #news, #music, #events, #about {
     position: relative;
     min-height: 70vh;
     padding: 120px 100px;
