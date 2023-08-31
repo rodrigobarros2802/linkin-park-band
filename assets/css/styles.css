@@ -282,6 +282,7 @@ header .nav-bar li:nth-child(6) a:hover {
 
 .events-content .date-content ion-icon {
     opacity: 0.5;
+    cursor: pointer;
 }
 
 #events .events-img {
