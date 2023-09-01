@@ -298,3 +298,8 @@ header .nav-bar li:nth-child(6) a:hover {
     width: 800px;
     height: 500px;
 }
+
+#about {
+    background: url(/assets/img/linkinpark.png);
+    
+}
