@@ -304,3 +304,12 @@ header .nav-bar li:nth-child(6) a:hover {
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+#about .about-content {
+    max-width: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    
+}
