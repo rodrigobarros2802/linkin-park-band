@@ -328,3 +328,7 @@ header .nav-bar li:nth-child(6) a:hover {
     font-size: 17px;
     margin: 20px 0;
 }
+
+.about-content a {
+    text-decoration: none;
+}
