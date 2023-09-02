@@ -317,5 +317,14 @@ header .nav-bar li:nth-child(6) a:hover {
 }
 
 .about-content h3 {
-    
+    text-transform: uppercase;
+    font-size: 1.5em;
+    letter-spacing: 0.1em;
+    font-weight: 700;
+}
+
+.about-content p {
+    font-weight: 300;
+    font-size: 17px;
+    margin: 20px 0;
 }
