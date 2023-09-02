@@ -331,4 +331,10 @@ header .nav-bar li:nth-child(6) a:hover {
 
 .about-content a {
     text-decoration: none;
+    color: var(--branco);
+    text-transform: uppercase;
+    border: 1px solid var(--branco);
+    border-radius: 20px;
+    padding: 5px 15px;
+    background: transparent;
 }
