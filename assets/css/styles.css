@@ -306,10 +306,16 @@ header .nav-bar li:nth-child(6) a:hover {
 }
 
 #about .about-content {
+    position: absolute;
     max-width: 700px;
     display: flex;
     justify-content: center;
     align-items: flex-start;
     flex-direction: column;
+    right: 100px;
+    color: var(--branco);
+}
+
+.about-content h3 {
     
 }
