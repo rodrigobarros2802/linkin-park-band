@@ -347,4 +347,12 @@ header .nav-bar li:nth-child(6) a:hover {
     align-items: center;
     width: 100%;
     height: 10vh;
+    background: var(--vermelho);
+    gap: 20px;
+}
+
+#media h3 {
+    color: var(--branco);
+    text-transform: uppercase;
+    font-size: 1.5em;
 }
